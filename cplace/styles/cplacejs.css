@@ -1,0 +1,151 @@
+/*
+ * Copyright 2018, collaboration Factory AG. All rights reserved.
+ *
+ * Some overrides for TUI JSDoc template CSS. Add changes to styles here.
+ */
+
+.main section article table td.name,
+.main section article table td.type,
+.main section article table td.attributes,
+.main section article table td.default {
+    max-width: 250px;
+}
+
+.text-page {
+    border-top: 5px solid #00beaa;
+}
+
+.text-page .text {
+    font-size: 16px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.for_boxes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.one_line_col > ul.for_boxes > li {
+    float: left;
+    width: 50%;
+
+}
+
+.iconed {
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position-x: 2px;
+    background-position-y: 26px;
+    background-position: 2px 26px;
+}
+
+.for_boxes h3 {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: bold;
+    padding-top: 24px;
+}
+
+.iconed ul li h3 {
+    padding-top: 10px;
+    color: #787878;
+}
+
+.privacy {
+    margin-bottom: 50px;
+}
+
+.privacy ul, .privacy ul ul, .privacy ul ul ul {
+    list-style-type: none;
+}
+
+.privacy #contact_information {
+    padding-top: 40px;
+    clear: left;
+}
+
+.footer .generated-on {
+    font-size: 10px;
+}
+
+
+h1.navbar-item {
+    display: none !important;
+}
+
+.logo img {
+    width: auto;
+    position: relative;
+    top: 9px;
+}
+
+.top-navbar {
+    background: white;
+    padding: 6px 0;
+}
+
+.top-navbar {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    margin-bottom: 3rem;
+}
+
+.navbar-menu, .navbar, .navbar-brand {
+    background: transparent !important;
+}
+
+h1.navbar-item {
+    color: red !important;
+}
+
+@media screen and (max-width: 670px) {
+    .logo:before {
+        content: "jsdoc.cplace.io";
+        padding: 20px;
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    .logo img {
+        display: none;
+    }
+}
+
+html, body {
+    font-family: "Open Sans", "Muli",sans-serif;    
+    height: 100%;
+}
+
+.content header.page-title h1 {
+    font-family: "Muli",sans-serif;        
+}
+
+body > .container {
+    min-height: 100%;
+}
+
+body > .container > .columns {
+    overflow: auto;
+    padding-bottom: 150px; /* this needs to be bigger than footer height*/
+}
+
+footer.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear: both;
+    padding-top: 20px;
+    background: #5b626c;
+}
+
+.top-navbar .navbar-item a, .top-navbar .navbar-burger a, .top-navbar .navbar-item, .top-navbar .navbar-burger {
+    color: #C3C2C5;
+    font-weight: bold;
+}
+
+div#sidebarNav {
+    box-shadow: inset -27px -22px 35px -50px rgba(0,0,0,0.75);
+}
